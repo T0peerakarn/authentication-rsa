@@ -1,4 +1,4 @@
-# Authentication System Using RSA Algorithm
+# Authentication System Using RSA Encryption
 
 ## Overview
 
