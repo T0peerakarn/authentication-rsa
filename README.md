@@ -15,17 +15,17 @@ This project demonstrates an authentication system utilizing the RSA algorithm t
 
 1. **Key Generation**:
     - Generate two large prime numbers.
-    - Calculate the modulus \( n = p \times q \).
-    - Compute the totient \(\phi(n) = (p-1) \times (q-1)\).
-    - Choose a public exponent \( e \) such that \( 1 < e < \phi(n) \) and \( \gcd(e, \phi(n)) = 1 \).
-    - Determine the private exponent \( d \) such that \( d \times e \equiv 1 \mod \phi(n) \).
+    - Calculate the modulus $n = p \times q$.
+    - Compute the totient $\phi(n) = (p-1) \times (q-1)$.
+    - Choose a public exponent $e$ such that $1 < e < \phi(n)$ and $\gcd(e, \phi(n)) = 1$.
+    - Determine the private exponent $d$ such that $d \times e \equiv 1 \mod \phi(n)$.
 
 2. **Encryption**:
-    - Convert the plaintext message to a number \( m \).
-    - Compute the ciphertext \( c = m^e \mod n \).
+    - Convert the plaintext message to a number $m$.
+    - Compute the ciphertext $c = m^e \mod n$.
 
 3. **Decryption**:
-    - Compute the plaintext message \( m = c^d \mod n \).
+    - Compute the plaintext message $m = c^d \mod n$.
 
 ### Primality Testing
 
